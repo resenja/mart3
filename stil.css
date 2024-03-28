@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+
+#levo,
+#desno {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  /* slike po default-u zautimaju originalnu veličinu, da nebi izlazile iz okvira kolona ograničavamo ih */
+}

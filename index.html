@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stil.css" />
+  </head>
+  <body>
+    <div id="levo">
+      <img src="logo.jpg" />
+      <h1>Kvadratna jednačina</h1>
+      <img src="kako-nacrtati.png" id="slika" onmouseenter="promeniSliku();" onmouseleave="promeniSliku();" />
+      <h2>Računanje rešenja kvadratne jednačine</h2>
+      <label>a: <input type="number" id="a" /></label>
+      <br />
+      <label>b: <input type="number" id="b" /></label>
+      <br />
+      <label>c: <input type="number" id="c" /></label>
+      <br />
+      <button onclick="izracunaj();">izračunaj</button>
+      <hr />
+      <h2 id="resenje"></h2>
+    </div>
+    <div id="desno">
+      <h2>teorija</h2>
+      <img src="kvadratna.png" />
+      <p>neki bezveze teks koji vam da u word fajlu</p>
+      <img src="parabola1.jpg" />
+      <p>Kvadratne jednačine su jednačine oblika: ax2 + bx + c = 0 gde su a,b,c realni brojevi, i a ≠ 0 (to linearna jednačina). Svaka kvadratna jednačina može imati 0, 1 ili 2 realna rešenja izvedena iz formule:</p>
+      <img src="parabola2.jpg" />
+      <p>Broj D = b2 - 4ac se naziva "diskriminanta". Ako je D < 0, onda kvadratna jednačina nema realnih rešenja (ima 2 kompleksna rešenja). Ako je D = 0, onda kvadratna jednačina ima jedno rešenje x=−b2ax=−2ab​ Ako je D > 0, onda kvadratna jednačina ima 2 različita rešenja. Grafik kvadratne jednačine nazivamo parabola. Ako je a > 0, onda ona ima minimum. Ako je a < 0, onda ona ima maksimum. Ako je a = 0 grafik nije parabola nego je prava.</p>
+      <h2>vietove formule</h2>
+      <p>Ako su x1 i x2 koreni kvadratne jednačine ax2 + bx + c = 0 onda: x1+x2=−bax1​+x2​=−ab​ x1x2=cax1​x2​=ac​ Ove formule se nazivaju Vietove formule. Korene x1 i x2 kvadratne jednačine možemo naći rešavanjem sistema jednačina.</p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
